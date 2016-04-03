@@ -65,8 +65,8 @@ public class CodeCount {
 	public static void main(String[] args) throws Exception {
 		CodeCount count = new CodeCount();
 		count.conuntAllFile(new File("src"));
-		System.out.println("´úÂëĞĞ: \t" + count.code);
-		System.out.println("×¢ÊÍĞĞ: \t" + count.doc);
-		System.out.println("¿ÕĞĞ£º¡Œ\t" + count.sp);
+		System.out.println("ä»£ç è¡Œ: \t" + count.code);
+		System.out.println("æ³¨é‡Šè¡Œ: \t" + count.doc);
+		System.out.println("ç©ºè¡Œï¼š\t" + count.sp);
 	}
 }
